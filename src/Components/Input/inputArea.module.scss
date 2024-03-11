@@ -1,0 +1,41 @@
+.inputArea {
+    background-color: rgb(145, 143, 143);
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    .input {
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 18px;
+      padding: 7px;
+      background-color: rgb(145, 143, 143);
+      &::placeholder {
+        color: black;
+      }
+    }
+    .send {
+      display: flex;
+      // gap: 10px;
+      align-items: center;
+      svg {
+        width: 40px;
+        height: 100%;
+      }
+      button {
+        border: none;
+        padding: 10px 15px;
+        background-color: rgb(21, 111, 247);
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        cursor: pointer;
+      }
+    }
+  }

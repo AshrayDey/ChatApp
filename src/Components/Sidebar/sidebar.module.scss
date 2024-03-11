@@ -1,0 +1,105 @@
+.container {
+  flex: 1;
+
+  background-color: rgb(10, 10, 10);
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 290px;
+    background-color: rgb(12, 64, 160);
+    height: 70px;
+    // border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    // border-bottom-right-radius: 5px;
+    padding: 10px;
+    color: white;
+    .logo{
+      font-family: fantasy;
+      background-color: rgb(191, 219, 33);
+      padding: 3px;
+      color: rgb(7, 7, 7);
+      border-radius: 5px;
+    }
+    .user {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      gap: 10px;
+      button {
+        border: none;
+        font-size: 12px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 10px;
+        background-color: rgba(231, 7, 7, 0.685);
+        color: white;
+        cursor: pointer;
+      }
+      img {
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 4px;
+      }
+    }
+  }
+  .searchBar{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.568);
+    .searchForm {
+      border: none;
+      
+      border-bottom: 2px solid rgb(0, 0, 0) ;
+      input{
+        background-color: transparent;
+        color: rgb(187, 183, 183);
+        font-size: 18px;
+        outline: none;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        &::placeholder{
+          color: white;
+        }
+      }
+    }
+  }
+  
+}
+
+//styling for chat tabs
+.chatContainer{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  // border-bottom:2px solid  rgb(12, 64, 160);
+  background-color: rgb(41, 40, 40);
+  cursor: pointer;
+  &:hover{
+      background-color: rgb(88, 88, 88);
+  }
+  img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      
+  }
+  .chatInfo{
+      color: rgba(255, 255, 255, 0.842);
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      span{
+          font-size: 18px;
+          font-weight: 600;
+      }
+      p{
+          font-size: 14px;
+          font-weight: 300;
+      }
+  }
+}

@@ -1,0 +1,75 @@
+.container {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    width: 410px;
+    background-color: rgb(191, 219, 33);
+    border-radius: 12px;
+    padding: 20px;
+    h1 {
+      margin-bottom: 20px;
+      letter-spacing: 4px;
+      font-family: fantasy;
+      
+      
+      border-radius: 7px;
+      
+    }
+    h3{
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      input {
+        
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        border-bottom: 2px solid black;
+        width: 220px;
+      }
+      label{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: rgb(71, 93, 190) ;
+        font-weight: bold;
+      }
+      svg{
+        width: 40px;
+        height: 30px;
+        
+        text-align: center;
+        
+      }
+      button {
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        font-weight: bold;
+        background-color: rgb(5, 117, 230) ;
+        cursor: pointer;
+      }
+      
+    }
+    p{
+        color: rgb(70, 68, 68);
+        font-size: 13px;
+        margin-top: 5px;
+    }
+  }
+}

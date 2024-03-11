@@ -1,0 +1,82 @@
+.friend {
+  padding: 20px 5px;
+  display: flex;
+  
+  .messageInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0 15px;
+    .dp {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  .messageContent {
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+   
+    gap: 15px;
+    img {
+      width: 365px;
+      border-radius: 5px;
+    }
+    p {
+      background-color: rgb(5, 69, 143);
+      color: rgb(248, 241, 241);
+      padding: 10px 15px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      border-radius: 0px 10px 10px 10px;
+      max-width: max-content;
+    }
+  }
+  span {
+    color: aqua;
+  }
+}
+
+.owner {
+  
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  .messageInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 15px;
+    .dp {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  .messageContent {
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    img {
+      width: 365px;
+      border-radius: 5px;
+    }
+    p {
+      background-color: rgb(5, 69, 143);
+      color: rgb(248, 241, 241);
+      padding: 10px 15px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      border-radius: 0px 10px 10px 10px;
+      max-width: max-content;
+    }
+  }
+  span {
+    color: aqua;
+  }
+}

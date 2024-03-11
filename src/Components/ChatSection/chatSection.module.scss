@@ -1,0 +1,48 @@
+.container {
+  flex: 3;
+  background-color: rgb(31, 32, 32);
+  border-left: 2px solid rgb(12, 64, 160);
+  
+  .chatInfo {
+    height: 70px;
+    background-color: rgb(22, 22, 22);
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 10px;
+    .recipient {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      img {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    svg {
+      height: 25px;
+      width: max-content;
+      color: rgb(7, 166, 214);
+      margin: 0px 8px;
+    }
+  }
+  .messagesArea::-webkit-scrollbar {
+    display: none;
+  }
+
+  .messagesArea {
+    height: calc(100% - 130px);
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+}
+
