@@ -15,7 +15,7 @@ export const Text = ({ text }) => {
       setSender("owner");
     }
     ref.current?.scrollIntoView({ behavior: "smooth" });
-  }, [text]);
+  }, [text,user.uid]);
 
   return (
     <>
