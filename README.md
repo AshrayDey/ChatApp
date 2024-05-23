@@ -12,4 +12,6 @@
 	-You can type a text and attach an image with your message 
 	
 	-click on log out button in the sidebar to log out
-	
+
+
+ DEPLOYED - https://master--chatappfirebase123.netlify.app/
